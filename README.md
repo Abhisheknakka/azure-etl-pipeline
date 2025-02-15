@@ -3,7 +3,7 @@
 ## **Overview**
 This project demonstrates how to build a **data pipeline using Azure services**, focusing on **seamless integration between various Azure components**. The pipeline follows these steps:
 
-1. **Data Ingestion**: CSV files are stored in GitHub.
+1. **Data Ingestion**: CSV files are stored in GitHu under `/data/` folder.
 2. **Data Storage**: Files are copied from GitHub to **Azure Data Lake Storage (ADLS)**.
 3. **Data Processing**: The data is processed using **Databricks**.
 4. **Data Warehousing**: Processed data is stored in **Azure Synapse Analytics**.
