@@ -15,6 +15,8 @@ All the **CSV files** are stored in a **GitHub repository** as the data source. 
 ### **Reading Files from GitHub in Azure Data Factory**
 To copy files from GitHub to ADLS, use **Azure Data Factory (ADF)**.
 
+`using COPY Function`
+
 #### **Source Configuration**
 - **Dataset Type**: HTTP
 - **Linked Service**: Create a new HTTP linked service pointing to GitHub.
